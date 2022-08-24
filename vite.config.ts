@@ -8,7 +8,10 @@ const rollupOptions = {
   output: {
     globals: {
       vue: "Vue"
-    }
+    },
+    // chunkFileNames: "assets/js/[name]-[hash].js",
+    // entryFileNames: "assets/js/[name]-[hash].js",
+    assetFileNames: "assets/[name].[ext]"
   }
 }
 
@@ -36,7 +39,7 @@ export default defineConfig({
       name: "SmartyUI",
       fileName: 'smarty-ui',
       formats: ["esm", "umd", "iife"]
-    }
+    },
   },
   test: {
     // enable jest-like global test APIs
