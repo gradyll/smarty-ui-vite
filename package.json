@@ -42,6 +42,7 @@
     "happy-dom": "6.0.4",
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
+    "rollup-plugin-copy": "^3.4.0",
     "terser": "5.4.0",
     "unocss": "0.45.6",
     "vitepress": "0.22.4",
